@@ -9,6 +9,9 @@ const EstiloGlobal = createGlobalStyle`
     font-family: 'Inter', sans-serif;
 
     body{
+
+      background-color: ${(props) => props.theme.corDeFundo};
+
       padding-top:80px;
       padding-bottom: 80px;
       @media (max-width: 768px){
