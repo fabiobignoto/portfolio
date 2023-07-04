@@ -24,6 +24,18 @@ const Projetos = () => (
       <li>
         <Projeto />
       </li>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
     </List>
   </section>
 )

@@ -1,9 +1,19 @@
+import Avatar from '../../components/Avatar'
+import Paragraph from '../../components/Paragraph'
 import Titulo from '../../components/Title'
+import { ButtonTheme, Description, SideBarContainer } from './styles'
 
 const Sidebar = () => (
   <aside>
-    <img src="https://github.com/fabiobignoto.png" />
-    <Titulo fontSize={20}>Fabio Bignoto</Titulo>
+    <SideBarContainer>
+      <Avatar />
+      <Titulo fontSize={20}>Fabio Bignoto</Titulo>
+      <Paragraph tipo="secundario" fontSize={16}>
+        fabiobignoto
+      </Paragraph>
+      <Description tipo="principal">Desenvolvedor Front-End</Description>
+      <ButtonTheme>Trocar Tema</ButtonTheme>
+    </SideBarContainer>
   </aside>
 )
 
